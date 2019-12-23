@@ -1,13 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class TrangChu extends CI_Controller {
+class NhanVien extends CI_Controller {
 
 	public function index()
 	{
-		$data['title'] = 'Trang chủ';
-		$data['page'] = 'pages/trangchu';
-		
+		$data['title'] = 'Nhân Viên';
+		$data['page'] = 'pages/nhanvien';
 		$this->load->view('master', $data);
 	}
 }
